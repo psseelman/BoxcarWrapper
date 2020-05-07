@@ -98,7 +98,7 @@ jobs:
         with:
           files: target/wheels/boxcars_py*.whl
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKE }}
 
       - name: PyPi publish
         env:
